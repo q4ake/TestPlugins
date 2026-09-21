@@ -6,7 +6,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import org.jsoup.nodes.Element
 
 class DizillaProvider : MainAPI() {
-    override var mainUrl = "https://dizilla.club"
+    override var mainUrl = "https://dizilla.now"
     override var name = "Dizilla"
     override val hasMainPage = true
     override var lang = "tr"
@@ -15,6 +15,7 @@ class DizillaProvider : MainAPI() {
 
     companion object {
         private val DOMAINS = listOf(
+            "https://dizilla.now",
             "https://dizilla.club",
             "https://dizilla9.com",
             "https://dizilla10.com",

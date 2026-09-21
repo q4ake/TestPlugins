@@ -5,5 +5,5 @@ cloudstream {
     authors = listOf("ibrah")
     status = 1
     tvTypes = listOf("TvSeries")
-    iconUrl = "https://dizilla.club/favicon.ico"
+    iconUrl = "https://dizilla.now/favicon.ico"
 }
