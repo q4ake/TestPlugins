@@ -108,7 +108,11 @@ class HDFilmCehennemiProvider : MainAPI() {
             val epHref = ep.attr("href").let { if (it.startsWith("http")) it else "$mainUrl$it" }
             val epNum = Regex("""(\d+)-bolum""").find(epHref)?.groupValues?.get(1)?.toIntOrNull()
             val seasonNum = Regex("""(\d+)-sezon""").find(epHref)?.groupValues?.get(1)?.toIntOrNull()
-            Episode(epHref, epTitle, seasonNum ?: 1, epNum)
+            newEpisode(epHref) {
+                this.name = epTitle
+                this.season = seasonNum ?: 1
+                this.episode = epNum
+            }
         }
 
         return if (episodes.isNotEmpty()) {
@@ -116,7 +120,6 @@ class HDFilmCehennemiProvider : MainAPI() {
                 this.posterUrl = poster
                 this.plot = description
                 this.year = year
-                this.rating = rating
                 this.duration = duration
                 this.tags = tags.ifEmpty { null }
             }
@@ -125,7 +128,6 @@ class HDFilmCehennemiProvider : MainAPI() {
                 this.posterUrl = poster
                 this.plot = description
                 this.year = year
-                this.rating = rating
                 this.duration = duration
                 this.tags = tags.ifEmpty { null }
             }

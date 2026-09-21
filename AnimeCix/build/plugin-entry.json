@@ -1,0 +1,22 @@
+{
+    "iconUrl": "https://animecix.tv/favicon.ico",
+    "fileHash": "sha256-20a7d22283b55499c35dfc392677a2b187f1d52c534a206caf5e960b0b828757",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/user/repo",
+    "fileSize": 16429,
+    "status": 1,
+    "language": "tr",
+    "authors": [
+        "ibrah"
+    ],
+    "tvTypes": [
+        "Anime",
+        "OVA",
+        "AnimeMovie"
+    ],
+    "version": 1,
+    "internalName": "AnimeCix",
+    "description": "AnimeCix - T\u00fcrk\u00e7e Anime \u0130zle",
+    "url": "https://raw.githubusercontent.com/user/repo/builds/AnimeCix.cs3",
+    "name": "AnimeCix"
+}

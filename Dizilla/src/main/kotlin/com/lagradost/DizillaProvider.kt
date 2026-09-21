@@ -94,14 +94,17 @@ class DizillaProvider : MainAPI() {
             val epHref = ep.attr("href").let { if (it.startsWith("http")) it else "$mainUrl$it" }
             val epNum = Regex("""(\d+)[\.\-]?\s*b[oö]l[uü]m""", RegexOption.IGNORE_CASE).find(epHref)?.groupValues?.get(1)?.toIntOrNull()
             val seasonNum = Regex("""(\d+)[\.\-]?\s*sezon""", RegexOption.IGNORE_CASE).find(epHref)?.groupValues?.get(1)?.toIntOrNull() ?: 1
-            Episode(epHref, epTitle, seasonNum, epNum)
+            newEpisode(epHref) {
+                this.name = epTitle
+                this.season = seasonNum
+                this.episode = epNum
+            }
         }.distinctBy { it.data }
 
         return newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes) {
             this.posterUrl = poster
             this.plot = description
             this.year = year
-            this.rating = rating
             this.tags = tags.ifEmpty { null }
         }
     }

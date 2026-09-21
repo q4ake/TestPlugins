@@ -1,0 +1,20 @@
+{
+    "iconUrl": "https://ultrafilmizle.org/favicon.ico",
+    "fileHash": "sha256-8d7f387f032e8110bdf92a5a353da86a267bfbc65ef1e59fd8007cef55352578",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/user/repo",
+    "fileSize": 14463,
+    "status": 1,
+    "language": "tr",
+    "authors": [
+        "ibrah"
+    ],
+    "tvTypes": [
+        "Movie"
+    ],
+    "version": 1,
+    "internalName": "UltraFilmIzle",
+    "description": "UltraFilmIzle - T\u00fcrk\u00e7e Film \u0130zle",
+    "url": "https://raw.githubusercontent.com/user/repo/builds/UltraFilmIzle.cs3",
+    "name": "UltraFilmIzle"
+}

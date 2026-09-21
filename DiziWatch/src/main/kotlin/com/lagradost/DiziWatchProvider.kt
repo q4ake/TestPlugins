@@ -101,7 +101,11 @@ class DiziWatchProvider : MainAPI() {
             val seasonNum = Regex("""(\d+)[\.\-]?\s*sezon""", RegexOption.IGNORE_CASE).find(epHref)?.groupValues?.get(1)?.toIntOrNull()
                 ?: Regex("""season-?(\d+)""", RegexOption.IGNORE_CASE).find(epHref)?.groupValues?.get(1)?.toIntOrNull()
                 ?: 1
-            Episode(epHref, epTitle, seasonNum, epNum)
+            newEpisode(epHref) {
+                this.name = epTitle
+                this.season = seasonNum
+                this.episode = epNum
+            }
         }.distinctBy { it.data }
 
         return if (episodes.isNotEmpty()) {
@@ -109,7 +113,6 @@ class DiziWatchProvider : MainAPI() {
                 this.posterUrl = poster
                 this.plot = description
                 this.year = year
-                this.rating = rating
                 this.tags = tags.ifEmpty { null }
             }
         } else {
@@ -118,7 +121,6 @@ class DiziWatchProvider : MainAPI() {
                 this.posterUrl = poster
                 this.plot = description
                 this.year = year
-                this.rating = rating
                 this.tags = tags.ifEmpty { null }
             }
         }

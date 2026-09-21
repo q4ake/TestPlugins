@@ -104,7 +104,6 @@ class UltraFilmIzleProvider : MainAPI() {
             this.posterUrl = poster
             this.plot = description
             this.year = year
-            this.rating = rating
             this.duration = duration
             this.tags = tags.ifEmpty { null }
         }
@@ -125,16 +124,6 @@ class UltraFilmIzleProvider : MainAPI() {
         doc.select("[data-embed], [data-player], .player-tab[data-src]").forEach { tab ->
             val embedUrl = tab.attr("data-embed").ifEmpty { tab.attr("data-player").ifEmpty { tab.attr("data-src") } }
             if (embedUrl.startsWith("http")) loadExtractor(embedUrl, mainUrl, subtitleCallback, callback)
-        }
-
-        // Video source etiketleri
-        doc.select("video source[src]").forEach { source ->
-            val src = source.attr("src")
-            if (src.startsWith("http")) {
-                callback.invoke(
-                    ExtractorLink(name, name, src, mainUrl, Qualities.Unknown.value, src.contains(".m3u8"))
-                )
-            }
         }
 
         return true

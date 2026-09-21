@@ -1,0 +1,147 @@
+[
+    {
+        "iconUrl": "https://animecix.tv/favicon.ico",
+        "fileHash": "sha256-20a7d22283b55499c35dfc392677a2b187f1d52c534a206caf5e960b0b828757",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 16429,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA",
+            "AnimeMovie"
+        ],
+        "version": 1,
+        "internalName": "AnimeCix",
+        "description": "AnimeCix - T\u00fcrk\u00e7e Anime \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/AnimeCix.cs3",
+        "name": "AnimeCix"
+    },
+    {
+        "iconUrl": "https://dizilla.now/favicon.ico",
+        "fileHash": "sha256-f3b50cc0477d41678d7d1feb933d132b21418f9d370674c18e91551242667045",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 15322,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Dizilla",
+        "description": "Dizilla - T\u00fcrk\u00e7e Yabanc\u0131 Dizi \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/Dizilla.cs3",
+        "name": "Dizilla"
+    },
+    {
+        "iconUrl": "https://diziwatch.ac/favicon.ico",
+        "fileHash": "sha256-c71378fb0dcb1066bc955de1eab80d7e74c7f280c8e4b39fcf341efa5a329119",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 16208,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "AsianDrama",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "DiziWatch",
+        "description": "DiziWatch - T\u00fcrk\u00e7e Dizi \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/DiziWatch.cs3",
+        "name": "DiziWatch"
+    },
+    {
+        "iconUrl": "https://filmmakinesi.to/favicon.ico",
+        "fileHash": "sha256-282cc56c46bc9be7d9832246aeb1e1e009b5b65083a88315b34af448b2330d04",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 14506,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "FilmMakinesi",
+        "description": "FilmMakinesi - T\u00fcrk\u00e7e Film \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/FilmMakinesi.cs3",
+        "name": "FilmMakinesi"
+    },
+    {
+        "iconUrl": "https://www.fullhdfilmizlesene.now/favicon-32x32.png",
+        "fileHash": "sha256-54c6af3f6998a591900180c19c981d0b444271b32a540337b3a8fef7196a4aa7",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 16384,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "FullHDFilmizlesene",
+        "description": "FullHDFilmizlesene - T\u00fcrk\u00e7e Film ve Dizi \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/FullHDFilmizlesene.cs3",
+        "name": "FullHDFilmizlesene"
+    },
+    {
+        "iconUrl": "https://www.hdfilmcehennemi.nl/favicon.ico",
+        "fileHash": "sha256-f6c9cb581a55185456b080d3ca023f8e5974cc942d9340c443f39b3ff29b5817",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 17781,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "HDFilmCehennemi",
+        "description": "HDFilmCehennemi - T\u00fcrk\u00e7e Film ve Dizi \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/HDFilmCehennemi.cs3",
+        "name": "HDFilmCehennemi"
+    },
+    {
+        "iconUrl": "https://ultrafilmizle.org/favicon.ico",
+        "fileHash": "sha256-8d7f387f032e8110bdf92a5a353da86a267bfbc65ef1e59fd8007cef55352578",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 14463,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "ibrah"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "UltraFilmIzle",
+        "description": "UltraFilmIzle - T\u00fcrk\u00e7e Film \u0130zle",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/UltraFilmIzle.cs3",
+        "name": "UltraFilmIzle"
+    }
+]

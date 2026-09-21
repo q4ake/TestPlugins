@@ -1,0 +1,20 @@
+{
+    "iconUrl": "https://filmmakinesi.to/favicon.ico",
+    "fileHash": "sha256-282cc56c46bc9be7d9832246aeb1e1e009b5b65083a88315b34af448b2330d04",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/user/repo",
+    "fileSize": 14506,
+    "status": 1,
+    "language": "tr",
+    "authors": [
+        "ibrah"
+    ],
+    "tvTypes": [
+        "Movie"
+    ],
+    "version": 1,
+    "internalName": "FilmMakinesi",
+    "description": "FilmMakinesi - T\u00fcrk\u00e7e Film \u0130zle",
+    "url": "https://raw.githubusercontent.com/user/repo/builds/FilmMakinesi.cs3",
+    "name": "FilmMakinesi"
+}

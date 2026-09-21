@@ -101,7 +101,11 @@ class AnimeCixProvider : MainAPI() {
             val epHref = ep.attr("href").let { if (it.startsWith("http")) it else "$mainUrl$it" }
             val epNum = Regex("""(\d+)[\.\-]?\s*(?:b[oö]l[uü]m|episode|ep)""", RegexOption.IGNORE_CASE).find(epHref)?.groupValues?.get(1)?.toIntOrNull()
                 ?: Regex("""/(\d+)/?$""").find(epHref)?.groupValues?.get(1)?.toIntOrNull()
-            Episode(epHref, epTitle, 1, epNum)
+            newEpisode(epHref) {
+                this.name = epTitle
+                this.season = 1
+                this.episode = epNum
+            }
         }.distinctBy { it.data }
 
         val animeType = when {
@@ -114,7 +118,6 @@ class AnimeCixProvider : MainAPI() {
             this.posterUrl = poster
             this.plot = description
             this.year = year
-            this.rating = rating
             this.tags = tags.ifEmpty { null }
             addEpisodes(DubStatus.Subbed, episodes)
         }
@@ -138,22 +141,17 @@ class AnimeCixProvider : MainAPI() {
             if (embedUrl.startsWith("http")) loadExtractor(embedUrl, mainUrl, subtitleCallback, callback)
         }
 
-        // Video source etiketleri
-        doc.select("video source[src]").forEach { source ->
-            val src = source.attr("src")
-            if (src.startsWith("http")) {
-                callback.invoke(
-                    ExtractorLink(name, name, src, mainUrl, Qualities.Unknown.value, src.contains(".m3u8"))
-                )
-            }
-        }
-
         // Altyazı dosyaları
         doc.select("track[kind=subtitles], track[kind=captions]").forEach { track ->
             val subSrc = track.attr("src")
             val subLang = track.attr("label").ifEmpty { track.attr("srclang").ifEmpty { "Türkçe" } }
             if (subSrc.startsWith("http")) {
-                subtitleCallback.invoke(SubtitleFile(subLang, subSrc))
+                subtitleCallback.invoke(
+                    SubtitleFile(
+                        lang = subLang,
+                        url = subSrc
+                    )
+                )
             }
         }
 

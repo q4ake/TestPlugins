@@ -1,0 +1,20 @@
+{
+    "iconUrl": "https://dizilla.now/favicon.ico",
+    "fileHash": "sha256-f3b50cc0477d41678d7d1feb933d132b21418f9d370674c18e91551242667045",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/user/repo",
+    "fileSize": 15322,
+    "status": 1,
+    "language": "tr",
+    "authors": [
+        "ibrah"
+    ],
+    "tvTypes": [
+        "TvSeries"
+    ],
+    "version": 1,
+    "internalName": "Dizilla",
+    "description": "Dizilla - T\u00fcrk\u00e7e Yabanc\u0131 Dizi \u0130zle",
+    "url": "https://raw.githubusercontent.com/user/repo/builds/Dizilla.cs3",
+    "name": "Dizilla"
+}

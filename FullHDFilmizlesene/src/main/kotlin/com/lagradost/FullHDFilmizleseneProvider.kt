@@ -96,7 +96,6 @@ class FullHDFilmizleseneProvider : MainAPI() {
             this.posterUrl = poster
             this.plot = description
             this.year = year
-            this.rating = rating
             this.duration = duration
             this.tags = tags.ifEmpty { null }
         }
