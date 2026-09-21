@@ -1,0 +1,8 @@
+{
+  "name": "q4ake Turkish Plugins",
+  "description": "FullHDFilmizlesene, HDFilmCehennemi, FilmMakinesi, UltraFilmIzle, DiziWatch, Dizilla, AnimeCix",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/q4ake/TestPlugins/builds/plugins.json"
+  ]
+}

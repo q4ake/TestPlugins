@@ -2,7 +2,7 @@
     "iconUrl": "https://www.fullhdfilmizlesene.now/favicon-32x32.png",
     "fileHash": "sha256-54c6af3f6998a591900180c19c981d0b444271b32a540337b3a8fef7196a4aa7",
     "apiVersion": 1,
-    "repositoryUrl": "https://github.com/user/repo",
+    "repositoryUrl": "https://github.com/q4ake/TestPlugins",
     "fileSize": 16384,
     "status": 1,
     "language": "tr",
@@ -15,6 +15,6 @@
     "version": 1,
     "internalName": "FullHDFilmizlesene",
     "description": "FullHDFilmizlesene - T\u00fcrk\u00e7e Film ve Dizi \u0130zle",
-    "url": "https://raw.githubusercontent.com/user/repo/builds/FullHDFilmizlesene.cs3",
+    "url": "https://raw.githubusercontent.com/q4ake/TestPlugins/builds/FullHDFilmizlesene.cs3",
     "name": "FullHDFilmizlesene"
 }

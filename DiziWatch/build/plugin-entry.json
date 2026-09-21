@@ -2,7 +2,7 @@
     "iconUrl": "https://diziwatch.ac/favicon.ico",
     "fileHash": "sha256-c71378fb0dcb1066bc955de1eab80d7e74c7f280c8e4b39fcf341efa5a329119",
     "apiVersion": 1,
-    "repositoryUrl": "https://github.com/user/repo",
+    "repositoryUrl": "https://github.com/q4ake/TestPlugins",
     "fileSize": 16208,
     "status": 1,
     "language": "tr",
@@ -17,6 +17,6 @@
     "version": 1,
     "internalName": "DiziWatch",
     "description": "DiziWatch - T\u00fcrk\u00e7e Dizi \u0130zle",
-    "url": "https://raw.githubusercontent.com/user/repo/builds/DiziWatch.cs3",
+    "url": "https://raw.githubusercontent.com/q4ake/TestPlugins/builds/DiziWatch.cs3",
     "name": "DiziWatch"
 }

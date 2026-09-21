@@ -2,7 +2,7 @@
     "iconUrl": "https://www.hdfilmcehennemi.nl/favicon.ico",
     "fileHash": "sha256-f6c9cb581a55185456b080d3ca023f8e5974cc942d9340c443f39b3ff29b5817",
     "apiVersion": 1,
-    "repositoryUrl": "https://github.com/user/repo",
+    "repositoryUrl": "https://github.com/q4ake/TestPlugins",
     "fileSize": 17781,
     "status": 1,
     "language": "tr",
@@ -16,6 +16,6 @@
     "version": 1,
     "internalName": "HDFilmCehennemi",
     "description": "HDFilmCehennemi - T\u00fcrk\u00e7e Film ve Dizi \u0130zle",
-    "url": "https://raw.githubusercontent.com/user/repo/builds/HDFilmCehennemi.cs3",
+    "url": "https://raw.githubusercontent.com/q4ake/TestPlugins/builds/HDFilmCehennemi.cs3",
     "name": "HDFilmCehennemi"
 }
