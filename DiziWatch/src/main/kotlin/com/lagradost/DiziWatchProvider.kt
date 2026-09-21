@@ -6,7 +6,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import org.jsoup.nodes.Element
 
 class DiziWatchProvider : MainAPI() {
-    override var mainUrl = "https://diziwatch.net"
+    override var mainUrl = "https://diziwatch.ac"
     override var name = "DiziWatch"
     override val hasMainPage = true
     override var lang = "tr"
@@ -15,8 +15,8 @@ class DiziWatchProvider : MainAPI() {
 
     companion object {
         private val DOMAINS = listOf(
+            "https://diziwatch.ac",
             "https://diziwatch.net",
-            "https://diziwatch1.com",
             "https://diziwatch2.com",
             "https://diziwatch3.com",
             "https://diziwatch.pro",

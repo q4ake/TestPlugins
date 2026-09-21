@@ -5,5 +5,5 @@ cloudstream {
     authors = listOf("ibrah")
     status = 1
     tvTypes = listOf("TvSeries", "AsianDrama", "Anime")
-    iconUrl = "https://diziwatch.net/favicon.ico"
+    iconUrl = "https://diziwatch.ac/favicon.ico"
 }
